@@ -34,9 +34,16 @@ Try out the demo within this repository.
 
 AppRater is now pushed to Maven Central as an AAR, so you just need to add the following dependency to your `build.gradle`.
     
-    dependencies {
-        compile 'com.github.codechimp-org.apprater:library:1.0.+'
-    }
+    allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+	
+	dependencies {
+	        compile 'com.github.fabioranieri:AppRater:2.0.0'
+	}
 
 ## Translations
 
