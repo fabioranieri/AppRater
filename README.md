@@ -5,7 +5,7 @@ It won't prompt until at least 3 days or 7 uses of the app has passed and if the
 
 AppRater inherits your themeing so can be used with light or dark variants as seen here;
 
-![Example Image Dark][1] ![Example Image Light][2]
+![Example Image Dark](https://raw.githubusercontent.com/fabioranieri/AppRater/master/demo-light.png)
 
 To use simply add the library to your app and make one call within your onCreate method as follows;
 
