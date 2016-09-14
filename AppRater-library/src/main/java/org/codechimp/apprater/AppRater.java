@@ -13,7 +13,6 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.Toast;
-
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.Theme;
@@ -317,4 +316,4 @@ public class AppRater {
         editor.putLong(PREF_FIRST_LAUNCHED, date_firstLaunch);
         commitOrApply(editor);
     }
-}
+};
